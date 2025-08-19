@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import sys
 import os
 
-API_KEY = "f9efa3fddeab4e2f0171840b7ec27746"
+API_KEY = "f9efa3fddeab4e2f0171840b7ec27746" ## usado para teste, não funciona!!! gere um novo no site tmdb
 
 def imprimir_barra_progresso(iteracao, total, prefixo='', sufixo='', comprimento=50, preenchimento='█'):
     percentual = ("{0:.1f}").format(100 * (iteracao / float(total)))
