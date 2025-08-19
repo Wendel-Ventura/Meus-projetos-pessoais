@@ -16,7 +16,7 @@ except nltk.downloader.DownloadError:
     nltk.download('vader_lexicon')
 
 
-bearer_token = "API_SEAAAAAAAAAAAAAAAAAAAAAMVr3gEAAAAAK5HqS7c%2Bu1H0rf7XRNo0WsehOvc%3DTNYfpdDA1o0exYmzMxkcOS7Aofq3BNJBCSLAYhCo50N3vpEY9bNTIMENTOS"
+bearer_token = "API_SEAAAAAAAAAAAAAAAAAAAAAMVr3gEAAAAAK5HqS7c%2Bu1H0rf7XRNo0WsehOvc%3DTNYfpdDA1o0exYmzMxkcOS7Aofq3BNJBCSLAYhCo50N3vpEY9bNTIMENTOS" ## não funciona! usado em teste! gere um novo no XDEV
 client = tweepy.Client(bearer_token)
 
 def coletar_tweets(termo_busca, num_tweets):
