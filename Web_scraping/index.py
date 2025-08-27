@@ -87,12 +87,6 @@ def limpar_dados(df):
     return df_limpo
 
 def visualizar_dados(df):
-    """
-    Cria visualizações básicas para explorar os dados.
-    
-    Args:
-        df (pd.DataFrame): DataFrame com os dados limpos.
-    """
     if df.empty:
         print("DataFrame vazio. Não há dados para visualizar.")
         return
